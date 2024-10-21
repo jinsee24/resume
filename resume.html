@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Sukriti Yadav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: cursive;
+            font-size: 1.5em;
+            font-weight: 900;
+        }
+
+        .resume-container {
+            display: flex;
+            flex-wrap: wrap; /* Ensures responsiveness */
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            color: rgb(7, 57, 57);
+            font-size: 1em;
+        }
+
+        .profile, .contact {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .profile {
+            background-color: #bed3c3;
+            width: 100%; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-right: none;
+        }
+
+        .profile-photo {
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            width: 150px;
+            height: auto;
+        }
+
+        .contact {
+            width: 100%; 
+            background-color: rgb(108, 165, 165);
+        }
+
+        .contact h2 {
+            color: #bed3c3;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            border-radius: 40px;
+        }
+
+        .contact ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .contact ul li {
+            color: #bed3c3;
+            padding: 18px;
+            margin-bottom: 8px;
+            border-left: 5px solid #333;
+            border-right: 5px solid #584a4a;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+       
+        @media (min-width: 768px) {
+            .resume-container {
+                flex-wrap: nowrap; 
+            }
+
+            .profile {
+                width: 40%;
+            }
+
+            .contact {
+                width: 60%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            body {
+                font-size: 1.2em; 
+            }
+
+            .skills img {
+                width: 40px; 
+                height: auto;
+            }
+
+            .contact ul li {
+                padding: 10px; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-photo {
+                width: 120px; 
+            }
+
+            body {
+                font-size: 1em; 
+            }
+
+            button {
+                font-size: 0.8em; 
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-container">
+        <section class="profile">
+            <img src="https://i.pinimg.com/736x/70/ba/47/70ba47ad37c3c96aa5b975b641cadf9f.jpg" alt="Profile Photo"
+                class="profile-photo">
+            <h1>Sukriti Yadav</h1>
+            <p>Web Developer | Programmer</p>
+            <h2>Contact</h2>
+            <p class="icon-text">
+                <i class="fas fa-phone"></i>
+                <span>Phone: +91 1234567890</span>
+            </p>
+            <p class="icon-text">
+                <i class="fas fa-envelope"></i>
+                <span>Email: sukriti@example.com</span>
+            </p>
+
+            <div class="skills">
+                <h2>Projects</h2>
+                <ul class="c">/
+                    <li><a href="https://jinsee24.github.io/3.html/"><img src="https://media.discordapp.net/attachments/1274330662815535135/1297801000014446644/game.png?ex=67173ede&is=6715ed5e&hm=fc0905c5f55ca4113f2e53015ac6600a15c5a7ad67ecf695f31681346109b97a&=&format=webp&quality=lossless&width=550&height=550" width="50px" height="50px">Memory Game</a></li>
+                    <li><a href="https://reshmayadav40.github.io/Travel-Egency/destinations.html"><img src="https://media.discordapp.net/attachments/1273940264590901300/1297799254764425259/travel.png?ex=67173d3e&is=6715ebbe&hm=ad58ff448297cb2116bebb13032c4a68bb276f95aadcf50e4b915abd2c1e9e3a&=&format=webp&quality=lossless&width=247&height=247" width="70px" height="70px">Travel Agency page</a></li>
+                    <li><a href="https://sakuntalabai24.github.io/recipe-page/"><img src="https://media.discordapp.net/attachments/1273940264590901300/1297799154428416010/recipe.png?ex=67173d26&is=6715eba6&hm=30bbb3f5781e1a4178f4c79b7b8e763454f62913810c3ec43b7c113d10bab77e&=&format=webp&quality=lossless&width=247&height=247" width="50px" height="60px">Recipe blog page</a></li>
+                    <li><a href="https://jinsee24.github.io/profile/"><img src="https://media.discordapp.net/attachments/1273940264590901300/1297798951558447115/man.png?ex=67173cf5&is=6715eb75&hm=77444d68d37cb2d92185e5e7e6aa8eab15bde462b8a6dc84ea22f3e168a6ef36&=&format=webp&quality=lossless&width=218&height=278" width="50px" height="50px">Personal bio page</a></li>
+                    <li><a href="https://reshmayadav40.github.io/Restaurant/"><img src="https://media.discordapp.net/attachments/1273940264590901300/1297799544666324992/spoon.png?ex=67173d83&is=6715ec03&hm=d81981a2c24a74491c6124684bca84a1c9dca57dfa103c532f7254d834275ee6&=&format=webp&quality=lossless&width=237&height=256" width="80px" height="80px">Restaurant webpage</a></li>
+                </ul>
+            </div>
+
+            <h2>Expertise</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Bhojpuri</li>
+                <li>Chhattisgarhi</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Objective</h2>
+            <p>I am a passionate web developer with expertise in HTML, CSS, and JavaScript, dedicated to creating responsive and visually appealing websites.</p>
+
+            <h2>Experience</h2>
+            <ul>
+                <li>Management Skills</li>
+                <li>Critical Thinking</li>
+                <li>Leadership</li>
+                <li>Team Work</li>
+            </ul>
+
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor's in Computer Science</strong> - Jawaharlal Nehru University (2020-2024)</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <div>
+                <ul>Soft Skills
+                    <li>Active Listener</li>
+                    <li>Time Management</li>
+                    <li>Self Motivational</li>
+                    <li>Communication Skills</li>
+                </ul>
+            </div>
+            <div>
+                <ul>Tech Skills
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <button onclick="openResumeGenerator()">Generate Resume</button>
+        </section>
+    </div>
+</body>
+
+</html>
